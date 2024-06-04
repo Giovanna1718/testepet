@@ -1,0 +1,114 @@
+body {
+    font-family: "Montserrat", "sans-serif";
+    color: #333;
+    background: linear-gradient(to bottom right, black, #1c033c);
+    size: 100%;
+}
+
+main {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    color: #F5F5F5;
+    font-size: 5Vh;
+}
+
+.login {
+    margin: 10%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;   
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    position: relative;
+}
+
+.card-container {
+    perspective: 1000px;
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+.inputs {
+    color: #333;
+    border: 0;
+    padding: 10px;
+    height: 40px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2.5px solid #555;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 1%;
+    align-items: center;
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-bottom: 6%;
+}
+
+.inputs input {
+    background-color: transparent !important;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: 0;
+}
+
+label {
+    color: #363636;
+    font-weight: bolder;
+    margin: 2%;
+    width: 10%;
+    transition: 0.5s; 
+    text-align: center;
+    margin-left: 22%;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.enviar {
+    color: #fff;
+    background-color: #0f4571;
+    border: 0;
+    padding: 10px;
+    height: 40px;
+    width: 20%;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5%;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#flip-button {
+    background-color: transparent;
+    border: none;
+    top: 10%;
+}
+
+.inicio {
+    display: flex;
+}

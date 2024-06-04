@@ -1,0 +1,92 @@
+.container-fluid {
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+table {
+  margin: 2vh;
+}
+
+.inicio {
+  display: flex;
+  margin: 2vh;
+  margin-bottom: 2%;
+}
+
+.adicionar {
+  background-color: #001969;
+  margin-left: 84%;
+  color: white;
+  border-radius: 8px;
+}
+
+#cadastro {
+  display: none;
+  background-color: #f0f0f0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vh;
+  border-style: groove;
+  border-radius: 0.5vh;
+}
+
+.interno {
+  display: flexbox;
+  /* width: 70Vh; */
+}
+
+.barra_superior {
+  background-color: #5b61a1;
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.barra_superior i {
+  font-size: 3.5Vh;
+  padding: 1%;
+}
+
+.barra_superior h4{
+    font-size: 2.5vh;
+    padding: 1%;  
+}
+
+.barra_superior button{
+    background-color: transparent;
+    border: none;
+    font-size: 3.5Vh;
+    position: fixed;
+    right: 0;
+}
+
+.col-sm-12 col-md-4 offset-md-4 p-1{
+    margin: 2%;
+}
+
+#autocomplete{
+  display: none;
+  background-color: white;
+  border: solid 1px #333;
+  position: absolute;
+  margin-top: -25px;
+  height: 150px;
+  overflow: scroll;
+  width: 50%;
+}
+
+#autocomplete ul{
+  list-style: none;
+  padding: 2px;
+}
+
+#autocomplete ul li{
+  border-bottom: #686565;
+}
+
+#autocomplete ul li:hover{
+  background-color: #686565;
+  cursor: pointer;
+}

@@ -1,0 +1,220 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", "sans-serif";
+    color: #333;
+    background: linear-gradient(to bottom right, black, #1c033c);
+    /* display: flex; */
+    justify-content: end;
+    /* align-items: center; */
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+header{
+    width: 100%;
+    max-height: 5%;
+    background-color: #5B61A1;
+    display: flex;
+    
+}
+
+header h1{
+    text-align: center;
+    margin-top: 0.5Vh;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3Vh;
+}
+
+header i{
+    margin-left: 10Vh;
+    margin-top: 1Vh;
+    margin-right: 150Vh;
+    font-size: 10ch;
+
+}
+
+main {
+    width: 100%;
+    margin-top: 2Vh;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo h1{
+    color: #F5F5F5;
+    font-size: 5Vh;
+}
+
+.incio{
+    top: 25;
+
+}
+
+.titulo h1 {
+    color: #F5F5F5;
+    font-size: 5Vh;
+}
+
+/* .text_login{
+    margin-right: 40%;
+} */
+
+.login h1{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%; margin-right: 5%; margin-top: 5%; margin-bottom: 5%;
+    text-align: center;
+    font-size: 5Vh;
+    
+}
+
+#flip-button, #flip-button-back{
+    margin-left: 39%;
+    color: #333333;
+    
+}
+
+
+.text-container{
+    text-align: center;
+    font-size: 1.9Vh;
+}
+
+.card-container {
+    perspective: 1000px;
+    margin-top: 15Vh;
+    /* margin-left: 50Vh; */
+    margin-left: 72Vh;
+    width: 60Vh;
+    
+}
+
+.card {
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    position: relative;
+    
+    
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.flipped {
+    transform: rotateY(180deg);
+}
+
+.inputs {
+    color: #333;
+    border: 0;
+    padding: 10px;
+    height: 40px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2.5px solid #555;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    margin: 1%;
+    align-items: center;
+    margin-right: auto; margin-left: auto; margin-bottom: 6%;
+    background-color: transparent !important
+}
+
+.inputs i {
+    /* margin-right: 10px; */
+}
+
+.inputs input {
+    background-color: transparent !important;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    outline: 0;
+}
+
+label {
+    color: #363636;
+    font-weight: bolder;
+    margin: 2%;
+    margin-bottom: 10px;
+    width: 10%;
+    /* top: 0; bottom: 0; left: 2px; right: 0; */
+    transition: 0.5s; 
+    text-align: center;
+    margin-left: 22%;
+}
+
+.botao{
+    display: flex;
+    /* margin-left: auto; margin-right: auto; */
+    align-items: center;
+    width: 100%;
+
+}
+    
+.enviar {
+    color: #fff;
+    background-color: #0f4571;
+    border: 0;
+    padding: 10px;
+    height: 40px;
+    width: 20%;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5%;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.change-text-button {
+    background-color: transparent;
+    border: none;
+    color: #300450;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.change-text-button i {
+    margin-right: 5px;
+}
+
+.inicio{
+    display: flex;
+    margin-bottom: 10%;
+}

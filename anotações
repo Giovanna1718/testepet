@@ -1,0 +1,27 @@
+ <!-- <input class="form-control" list="datalistOptions" id="animal" placeholder="Selecione o Responsável">
+        <datalist id="datalistOptions">
+            <option value="Giovanna">
+            <option value="Celina">
+            <option value="João">
+            <option value="Liz">
+            <option value="Silvia">
+        </datalist> 
+
+<!-- <input class="form-control" list="datalistOptions" id="cliente" placeholder="Selecione o cliente">
+        <datalist id="datalistOptions">
+            <option value="Ivy">
+            <option value="Mariah">
+            <option value="Diana">
+            <option value="Lily">
+            <option value="Celso">
+        </datalist> 
+
+
+ <!-- <input class="form-control" list="datalistOptions" id="animal" placeholder="Selecione um animal">
+        <datalist id="datalistOptions">
+            <option value="Luna">
+            <option value="Maya">
+            <option value="Mel">
+            <option value="Lila">
+            <option value="Chico">
+        </datalist>        -->
