@@ -1,10 +1,10 @@
 <?php
 class Conexao{
-    private static $name = "mundo_pet";
-    private static $host = "127.0.0.1";
-    private static $user = "root";
-    private static $pass = "";
-    private static $con = null;
+    private static $name = "diego165_pet";
+    private static $host = "ns1102.hostgator.com.br";
+    private static $user = "diego165_gti";
+    private static $pass = "6R5RISxp~M.a";
+    private static $con = 3306;
     
     public static function conectar(){
         if(self::$con == null){
